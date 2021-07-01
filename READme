@@ -1,0 +1,27 @@
+# README #
+
+
+### INSTALLATION ###
+
+* iF you don't have Visual Studion please download and install visual studio latest version
+* if you don't have GIT please download and install Git (GIT BASH) CLI
+* Please download and extract to the appropriate folder Chrome selenium webdriver. https://chromedriver.chromium.org/downloads
+	please note you would need to remember or save the file path of the directory you extracted the driver to
+	Also be advise to download the appropriate driver that matches the chrome browser version because this might caused some issues.
+
+### CLONE PROJECT ###
+* This is the url to clone the project from git hub
+	https://github.com/olanrewaju-olatujoye/SourceDemo.git
+	you can decide to clone directly from visual studio or from Gitbash CLI
+
+### RUNNING PROGRAM ###
+* Open the Browser_Operation.cs file in the project
+		Right at the Init_Browser() method in below code
+		driver = new ChromeDriver(@"C:\Users\Lanre\Downloads\chromedriver_win32 (5)");
+		Change the directory to where you install your chrome driver (the same one you saved or remembered)
+* Please run the program as TEST and not as a regular program (THIS IS BECAUSE I USED NUNIT framework) and it doesn't have a main method	
+
+
+### Who do I talk to? ###
+
+* You can reach me at olanrewaju.olatujoye@gmail.com if you have any issues.
